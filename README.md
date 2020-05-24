@@ -1,7 +1,7 @@
 # deno-jwt-sample
 
-### Original link:
-https://github.com/thecodeholic/deno-jwt-auth-example/blob/8a0d323236d98f668c5f9d21577795a32059480d/authMiddleware.ts
+### Original repository link
+https://github.com/thecodeholic/deno-jwt-auth-example/tree/8a0d323236d98f668c5f9d21577795a32059480d
 
 ### Video
 https://www.youtube.com/watch?v=2Skms0gkUXk
