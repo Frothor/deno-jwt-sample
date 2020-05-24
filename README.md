@@ -16,10 +16,10 @@ deno run --allow-net server.ts
 
 **2. Getting jwt token**
 ```
-curl -H "Content-Type: application/json" --request POST  --data '{"username":"{username}","password":"{password}"}' http://{host}:{port}/login
+curl -H "Content-Type: application/json" --request POST  --data '{"username":"{username}","password":"{password}"}' http://{hostname}:{port}/login
 ```
 
 **3. Authenticating**
 ```
-curl -H 'Accept: application/json' -H "Authorization: Bearer ${TOKEN}" https://{hostname}/auth
+curl -H 'Accept: application/json' -H "Authorization: Bearer ${TOKEN}" http://{hostname}/auth
 ```
